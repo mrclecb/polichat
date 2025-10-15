@@ -15,9 +15,16 @@ struct RootView: View {
     }
 }
 
+#if DEBUG
 struct RootView_Previews: PreviewProvider {
     static var previews: some View {
-        RootView()
-            .environmentObject(AppState())
+        Group {
+            RootView()
+                .environmentObject(PreviewMocks.unauthenticatedState)
+
+            RootView()
+                .environmentObject(PreviewMocks.authenticatedState)
+        }
     }
 }
+#endif

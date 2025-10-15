@@ -45,16 +45,11 @@ struct PolicySummaryView: View {
     }
 }
 
+#if DEBUG
 struct PolicySummaryView_Previews: PreviewProvider {
     static var previews: some View {
-        PolicySummaryView(
-            summary: PolicySummary(
-                policyName: "Seguro Auto Premium 2024",
-                coverageHighlights: ["Responsabilidad civil", "Cobertura de daños"],
-                deductibleInformation: "Deducible 5%",
-                validity: "Hasta 2024"
-            )
-        )
-        .environmentObject(AppState())
+        PolicySummaryView(summary: PreviewMocks.sampleSummary)
+            .environmentObject(PreviewMocks.authenticatedState)
     }
 }
+#endif

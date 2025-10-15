@@ -29,9 +29,11 @@ struct MainFlowView: View {
     }
 }
 
+#if DEBUG
 struct MainFlowView_Previews: PreviewProvider {
     static var previews: some View {
         MainFlowView()
-            .environmentObject(AppState())
+            .environmentObject(PreviewMocks.authenticatedState)
     }
 }
+#endif

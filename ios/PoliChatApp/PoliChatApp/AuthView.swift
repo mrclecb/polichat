@@ -97,14 +97,16 @@ struct AuthView: View {
         }
         withAnimation {
             appState.isAuthenticated = true
-            appState.navigationPath = NavigationPath([AppState.Route.policyUpload])
+            appState.navigationPath = NavigationPath()
         }
     }
 }
 
+#if DEBUG
 struct AuthView_Previews: PreviewProvider {
     static var previews: some View {
         AuthView()
-            .environmentObject(AppState())
+            .environmentObject(PreviewMocks.unauthenticatedState)
     }
 }
+#endif

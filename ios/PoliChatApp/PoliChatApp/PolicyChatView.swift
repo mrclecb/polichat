@@ -100,8 +100,10 @@ struct ChatBubble: View {
     }
 }
 
+#if DEBUG
 struct PolicyChatView_Previews: PreviewProvider {
     static var previews: some View {
         PolicyChatView()
     }
 }
+#endif

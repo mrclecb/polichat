@@ -90,9 +90,11 @@ struct PolicyUploadView: View {
     }
 }
 
+#if DEBUG
 struct PolicyUploadView_Previews: PreviewProvider {
     static var previews: some View {
         PolicyUploadView()
-            .environmentObject(AppState())
+            .environmentObject(PreviewMocks.authenticatedState)
     }
 }
+#endif
