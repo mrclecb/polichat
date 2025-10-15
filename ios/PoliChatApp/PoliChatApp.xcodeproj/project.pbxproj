@@ -30,7 +30,7 @@ objects = {
 1D1F1C982B0E310500000008 /* PolicyChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyChatView.swift; sourceTree = "<group>"; };
 1D1F1C992B0E310500000009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 1D1F1C9A2B0E31050000000A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-1D1F1C9C2B0E31050000000C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+1D1F1C9C2B0E31050000000C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "PreviewContent/Preview Assets.xcassets"; sourceTree = "<group>"; };
 1D1F1C9F2B0E31050000000F /* PreviewMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewMocks.swift; sourceTree = "<group>"; };
 1D1F1CAE2B0E31050000000D /* PoliChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -199,7 +199,7 @@ CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 CODE_SIGN_IDENTITY = "";
 CODE_SIGN_STYLE = Automatic;
 CURRENT_PROJECT_VERSION = 1;
-DEVELOPMENT_ASSET_PATHS = "PoliChatApp/Preview Content";
+DEVELOPMENT_ASSET_PATHS = "PoliChatApp/PreviewContent";
 DEVELOPMENT_TEAM = "";
 ENABLE_PREVIEWS = YES;
 GENERATE_INFOPLIST_FILE = NO;
@@ -255,7 +255,7 @@ CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 CODE_SIGN_IDENTITY = "";
 CODE_SIGN_STYLE = Automatic;
 CURRENT_PROJECT_VERSION = 1;
-DEVELOPMENT_ASSET_PATHS = "PoliChatApp/Preview Content";
+DEVELOPMENT_ASSET_PATHS = "PoliChatApp/PreviewContent";
 DEVELOPMENT_TEAM = "";
 ENABLE_PREVIEWS = YES;
 GENERATE_INFOPLIST_FILE = NO;

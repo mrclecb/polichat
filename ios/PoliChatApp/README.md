@@ -14,7 +14,7 @@ Este directorio contiene la base del proyecto iOS construido en SwiftUI siguiend
 - `PolicyChatView.swift`: Chat simulado en espera de integración con el LLM.
 - `PreviewMocks.swift`: Datos de ejemplo y estados preconfigurados para las `SwiftUI Previews`.
 - `Assets.xcassets`: Catálogo de recursos (incluye AppIcon placeholder).
-- `Preview Content/Preview Assets.xcassets`: Recursos usados en las previsualizaciones.
+- `PreviewContent/Preview Assets.xcassets`: Recursos usados en las previsualizaciones.
 
 ## Cómo ejecutar en Xcode
 1. Abre `ios/PoliChatApp/PoliChatApp.xcodeproj` con Xcode 15 o superior.
